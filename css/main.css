@@ -1,0 +1,59 @@
+﻿form {
+    display: table;
+    width: 380px;
+}
+
+p {
+    display: table-row;
+    width: 380px;
+}
+
+label {
+    display: table-cell;
+}
+
+input {
+    display: table-cell;
+    width: 180px;
+}
+
+select {
+    display: table-cell;
+    width: 184px;
+}
+
+body {
+    font-size: 24px;
+}
+
+div.c {
+    background-color: #7faaef;
+    column-span: 2;
+    -webkit-column-span: 2;
+    float: left;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    width: 400px;
+}
+
+.button-login {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+    .button-login button {
+        display: block;
+        text-transform: uppercase;
+        width: 330px;
+        color: #000;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+        font-size: 16pt;
+        background-color: #33cc33;
+    }
