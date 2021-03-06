@@ -15,3 +15,23 @@
         display: block;
     }
 }
+.button-login {
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+    .button-login button {
+        display: block;
+        text-transform: uppercase;
+        width: 330px;
+        color: #000;
+        border: none;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+        font-weight: bold;
+        font-size: 16pt;
+        background-color: #33cc33;
+    }

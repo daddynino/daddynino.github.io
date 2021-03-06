@@ -10,7 +10,7 @@
     <meta name="author" content="Neil Saunders">
     <style>
         body {
-            background-color: tan;
+            background-color: white;
             color: black;
             background-image: url('./IMAGES/desktop.jpg');
             background-repeat: no-repeat;
@@ -20,8 +20,8 @@
         /* On screens that are 992px wide or less, the background color is blue */
         @media screen and (max-width: 992px) {
             body {
-                /*background-color: blue;*/
-                color: white;
+                background-color: white;
+                color: black;
                 background-image: url('./IMAGES/mobile.jpg');
                 background-repeat: no-repeat;
                 background-size: 100%;
@@ -29,22 +29,23 @@
         }
 
         /* On screens that are 600px wide or less, the background color is olive */
-        @media screen and (max-width: 600px) {
+        /*@media screen and (max-width: 600px) {
             body {
                 background-color: olive;
                 color: white;
-            }
+            }*/
         }
     </style>
 
-    <!--<link rel="stylesheet" href="JS-CSS/styles.css?v=1.0">-->
+    <link rel="stylesheet" href="JS-CSS/styles.css?v=1.0">
     <!--<script src="js/scripts.js"></script>-->
 </head>
 <body>
 
-    Currently Under Construction
-    <div class="show-on-desktop" style="background-image: url('./IMAGES/desktop.jpg');" data-stellar-background-ratio="0.5"></div>
-
-    <div class="show-on-mobile" style="background-image: url('./IMAGES/mobile.jpg');" data-stellar-background-ratio="0.5"></div>
+    <!--Currently Under Construction-->
+    <div class="button-login"><button onclick="location.href='./occ.html'">Tow Calculator</button></div>
+    <div class="button-login"><button onclick="location.href='./dealers.html'">Dealership List</button></div>
+    <div class="button-login"><button onclick="doCalc()">Canadian Tire Info</button></div>
+    <div class="button-login"><button onclick="location.href='./checklist.html'">CAA Supply Checklist</button></div>
 </body>
 </html>
