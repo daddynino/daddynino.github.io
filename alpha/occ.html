@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=0.9">
+<HTML>
+
+<head>
+<TITLE>Towing Calculator</TITLE>
+
+<link rel="stylesheet" type="text/css" href="./JS-CSS/calc.css" />
+
+
+<script src="./JS-CSS/calc.js">
+
+
+</script>
+</head>
+<body onload="LockItDown();">
+    <div style="text-align:center;width:400px;">Neil's Tow<br>Calculator</div>
+    <br>
+    <form>
+        <div class="c">CAA Coverage</div>
+        <br>
+        <p>
+            <label>Call Code</label>
+            <select id="CallCodeID" class="form-control" onchange="LockItDown();">
+                <option value="00.0">Cash or Private Call</option>
+                <option value="00.0">0&nbsp;&nbsp;&nbsp;&nbsp;- No Service</option>
+                <option value="13.5">1&nbsp;&nbsp;&nbsp;&nbsp;- Flat Tire, with Spare</option>
+                <option value="13.5">1A&nbsp;&nbsp;- Air Delivery</option>
+                <option value="13.5">1R&nbsp;&nbsp;&nbsp;- RV call, Flat with Spare</option>
+                <option value="13.5">2&nbsp;&nbsp;&nbsp;&nbsp;- Flat Tire, No Spare</option>
+                <option value="13.5">2R&nbsp;&nbsp;- RV Call, Flat No Spare</option>
+                <option value="13.5">3&nbsp;&nbsp;&nbsp;&nbsp;- Jump Start</option>
+                <option value="13.5">3B&nbsp;&nbsp;- Battery Sale</option>
+                <option value="13.5">3U&nbsp;&nbsp;- Jump Start Underground</option>
+                <option value="13.5">3W&nbsp;&nbsp;- Battery Warranty</option>
+                <option value="13.5">4&nbsp;&nbsp;&nbsp;&nbsp;- No Start</option>
+                <option value="13.5">4U&nbsp;&nbsp;- No Start Underground</option>
+                <option value="13.5">5&nbsp;&nbsp;&nbsp;&nbsp;- Fuel</option>
+                <option value="13.5">5U&nbsp;&nbsp;- Fuel Underground</option>
+                <option value="13.5">6&nbsp;&nbsp;&nbsp;&nbsp;- Tow</option>
+                <option value="13.5">6B&nbsp;&nbsp;- Bicycle Tow</option>
+                <option value="19.5">6D&nbsp;&nbsp;- Medium Duty Tow</option>
+                <option value="16.5">6E&nbsp;&nbsp;- Exotic Car Tow</option>
+                <option value="16.5">6F&nbsp;&nbsp;- Flatbed Tow</option>
+                <option value="0.00">6H&nbsp;&nbsp;- Heavy Duty Tow</option>
+                <option value="16.5">6M&nbsp;&nbsp;- Motorcycle Tow</option>
+                <option value="16.5">6R&nbsp;&nbsp;- RV Tow</option>
+                <option value="13.5">6U&nbsp;&nbsp;- Underground Tow</option>
+                <option value="13.5">7&nbsp;&nbsp;&nbsp;&nbsp;- Lockout</option>
+                <option value="13.5">7A&nbsp;&nbsp;- Make A Key</option>
+                <option value="13.5">7B&nbsp;&nbsp;- Locksmith Services</option>
+                <option value="13.5">7U&nbsp;&nbsp;- Lockout Underground</option>
+                <option value="13.5">8&nbsp;&nbsp;&nbsp;&nbsp;- Winch/Extrication</option>
+                <option value="13.5">8R&nbsp;&nbsp;- RV Winch/Extrication</option>
+                <option value="13.5">9&nbsp;&nbsp;&nbsp;&nbsp;- Misc Call</option>
+                <option value="13.5">9S&nbsp;&nbsp;- Shuttle/Taxi</option>
+                <option value="13.5">9T&nbsp;&nbsp;- Trip Interuption</option>
+                <option value="13.5">HZ&nbsp;&nbsp;- Hertz Car Rental</option>
+            </select>
+        </p>
+        <p><label>REMs</label><input type="text" id="CAAREMs" class="form-control" placeholder=""></p>
+        <p><label>RPMs</label><input type="text" id="CAARPMs" class="form-control" placeholder=""></p>
+        <p><label>PR1 Time</label><input type="text" id="PR1Time" class="form-control" placeholder=""></p>
+        <p><label>Night Premium</label><input type="checkbox" id="chkShiftPremium"></p>
+        <p><label>Heavy Minutes</label><input type="text" id="HeavyMinutes" class="form-control" placeholder=""></p>
+        <br>
+        <div class="c">Cash Charges</div>
+        <br>
+        <p><label>Service / Hook Fee</label><input type="text" id="ServiceCall" class="form-control" placeholder="" value="0"></p>
+        <p><label>Tow Milage Fee</label><input type="text" id="TowingCharges" class="form-control" placeholder="" value="0"></p>
+        <p><label>Storage Fee</label><input type="text" id="StorageFees" class="form-control" placeholder="" value="0"></p>
+        <p><label>Winching Fee</label><input type="text" id="WinchingTime" class="form-control" placeholder="" value="0"></p>
+        <br>
+        <p><label>SubTotal</label><input type="text" id="SubTotal" class="form-control" placeholder="" value="0"></p>
+        <p><label>Include GST?</label><input type="checkbox" id="chkAddGST"></p>
+        <p><label>GST</label><input type="text" id="GST" class="form-control" placeholder="" value="0"></p>
+        <p><label>Total Cash Due</label><input type="text" id="TotalCash" class="form-control" placeholder="" value="0"></p>
+        <br>
+        <p><label>My Earnings</label><input type="text" id="CallIncome" class="form-control" placeholder="" value="0"></p>
+        <!--</p>-->
+    </form>
+    <br>
+    <div class="button-login"><button type="submit" onclick="doCalc()">Calculate</button></div>
+    <div class="button-login"><button type="submit" onclick="location.reload();">Reset</button></div>
+    <div class="button-login"><button onclick="location.href='./switchboard.html'">Main Menu</button></div>
+
+    <!--Test for radio buttons selection
+
+        <p>Gender</p>
+    <input type="radio" id="gender0" name="gender" value="Male">Male<br>
+    <input type="radio" id="gender1" name="gender" value="Female">Female<br> -->
+
+
+</body>
+
+</html>
