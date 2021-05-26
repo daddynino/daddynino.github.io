@@ -35,3 +35,11 @@
         font-size: 16pt;
         background-color: #33cc33;
     }
+
+
+.center {
+    margin: auto;
+    /*background: lime;*/
+    width: 350px;
+}
+
