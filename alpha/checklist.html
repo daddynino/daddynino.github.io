@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <TITLE>Supply Checklist</TITLE>
+    <link rel="stylesheet" type="text/css" href="./js-css/calc.css" />
+
+
+    <style>
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 0px;
+            }
+
+            #customers tr: nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr: hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 6px;
+                padding-bottom: 6px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: #FFFFFF;
+            }
+
+        ul li: before {
+            content: '\2713';
+            display: inline;
+            color: #FF0000;
+            padding: 0 0px 0 0;
+        }
+
+        ul li {
+            list-style-type: none;
+            font-size: 0.8em;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <table id="customers">
+        <tbody>
+            <tr>
+                <th style="text-align: center;">
+                    Item Name
+                </th>
+                <th style="text-align: center;">
+                    Quantity Required
+                </th>
+            </tr>
+            <tr>
+                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                    Driver Category
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    CAA ID Badge
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSA Approved Pants (Navy Colour)
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSA Approved Safety Glasses
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSA Approved Shirt/Hoodie (Navy Colour)
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CSA Approved Steel Toed Boots
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Work Gloves
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                    Truck Category
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    CAA Tow Manual
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CAA Lockout Manual
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Dolly Tie Downs
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Audible Reverse Alarm
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    CAA Colours, Logo &amp; Facility Name
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Emergency Lighting
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Eye Wash Kit
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ABC Fire Extinguisher
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    First Aid Kit
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Flares
+                </td>
+                <td style="text-align: center;">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Triangles / Pylons
+                </td>
+                <td style="text-align: center;">
+                    4
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Flashlight
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Spill Kit: Shovel, Broom, Absorbant Material, Disposal Container
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Axle Stand and/or Cribbing
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Wheel Chocks
+                </td>
+                <td style="text-align: center;">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jack - 2 or 2.5 tonne
+                </td>
+                <td style="text-align: center;">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tire Wrench - 4Way or Adjustable
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                    Tow Specific Category
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    MTO Annual Inspection
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Municipal License Plates
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Secured Wheel Retainers
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Safety Chains and Straps
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tow Auxiliary Lights
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Air Compressor (Portable or Hard Line)
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Air Hose
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Wood
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Motorcycle Straps
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Skates
+                </td>
+                <td style="text-align: center;">
+                    4
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ball Joint Skate
+                </td>
+                <td style="text-align: center;">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Snatch Block
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Booster Pack
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Booster Cables
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                    Suggested Items
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Ratchet Straps
+                </td>
+                <td style="text-align: center;">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Sledge Hammer - 2lb or heavier
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rubber Mallet - 2lb or heavier
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Folding Utility Knife
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Bag of 18" Zip Ties
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Flat Screw Driver
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pliers
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Vice Grips
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Wire Cutters
+                </td>
+                <td style="text-align: center;">
+                    -
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="button-login"><button onclick="location.href='./index.html'">Main Menu</button></div>
+
+</body>
+</HTML>
