@@ -1,84 +1,106 @@
 <!DOCTYPE html>
 <HTML>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
     <TITLE>Canadian Tire - London and area</TITLE>
-
-    <link rel="stylesheet" type="text/css" href="./js-css/calc.css" />
-
-
-    <script src="./js-css/calc.js">
-
-
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./JS-CSS/calc.css" />
     <style>
-        form {
-            display: table;
-            width: 380px;
+        #customers {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 450px;
         }
 
-        p {
-            display: table-row;
-            width: 380px;
-        }
-
-        label {
-            display: table-cell;
-        }
-
-        input {
-            display: table-cell;
-            width: 180px;
-        }
-
-        select {
-            display: table-cell;
-            width: 184px;
-        }
-
-        body {
-            font-size: 24px;
-        }
-
-        div.c {
-            background-color: #7faaef;
-            column-span: 2;
-            -webkit-column-span: 2;
-            float: left;
-            margin: auto;
-            position: absolute;
-            text-align: center;
-            width: 377px;
-        }
-
-        .button-login {
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-        }
-
-            .button-login button {
-                display: block;
-                text-transform: uppercase;
-                width: 330px;
-                color: #000;
-                border: none;
-                padding: 10px;
-                margin-bottom: 10px;
-                border-radius: 2px;
-                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
-                font-weight: bold;
-                font-size: 16pt;
-                background-color: #33cc33;
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 0px;
             }
-    </style>
 
+            /*#customers tr: nth-child(even) {
+                background-color: #f2f2f2;
+            }*/
+
+            /* #customers tr: hover {
+                background-color: #ddd;
+            }*/
+
+            #customers th {
+                padding-top: 6px;
+                padding-bottom: 6px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: #FFFFFF;
+            }
+
+        /* ul li: before {
+            content: '\2713';
+            display: inline;
+            color: #FF0000;
+            padding: 0 0px 0 0;
+        }*/
+
+        ul li {
+            list-style-type: none;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
 <body>
-    
+
     <div style="text-align:center;width:400px;">Canadian Tire stores<br>London and area</div><br>
     <div style="text-align:center;width:400px;">STILL A WORK IN PROGRESS</div><br>
+
+
+    <table id="customers">
+        <tr><th style="text-align: center; background-color: #2f92fe;" colspan="2">1975 Dundas Street East</th></tr>
+        <tr><td>Monday - Friday</td><td>8am-8pm</td></tr>
+        <tr><td>Saturday</td><td>8am-8pm</td></tr>
+        <tr><td>Sunday</td><td>9am-6pm</td></tr>
+        <tr><td colspan="2">Phone: <a href="tel:15194516260">519-451-6260</a></td></tr>
+        <tr><td colspan="2"><a href="https://goo.gl/maps/7PvcN7EdGnN5pVaw5" target="_blank">Google Maps link</a> </td></tr>
+
+        <tr><td colspan="2">&nbsp;</td></tr>
+
+        <tr><th style="text-align: center; background-color: #2f92fe;" colspan="2">378 Horton Street East</th></tr>
+        <tr><td>Monday - Friday</td><td>8am-6pm</td></tr>
+        <tr><td>Saturday</td><td>8am-5pm</td></tr>
+        <tr><td>Sunday</td><td>9am-5pm</td></tr>
+        <tr><td colspan="2">Phone: <a href="tel:15196427250">519-642-7250</a></td></tr>
+        <tr><td colspan="2"><a href="https://goo.gl/maps/r3LriXHhjEfW753S9" target="_blank">Google Maps link</a> </td></tr>
+
+        <tr><td colspan="2">&nbsp;</td></tr>
+
+        <tr><th style="text-align: center; background-color: #2f92fe;" colspan="2">1125 Wellington Road</th></tr>
+        <tr><td>Monday - Friday</td><td>9am-6pm</td></tr>
+        <tr><td>Saturday</td><td>9am-6pm</td></tr>
+        <tr><td>Sunday</td><td>9am-5pm</td></tr>
+        <tr><td colspan="2">Phone: <a href="tel:15196812620">519-681-2620</a></td></tr>
+        <tr><td colspan="2"><a href="https://goo.gl/maps/Kak3o5cb2LQAGpyK7" target="_blank">Google Maps link</a> </td></tr>
+
+        <tr><td colspan="2">&nbsp;</td></tr>
+
+        <tr><th style="text-align: center; background-color: #2f92fe;" colspan="2">3100 Wonderland Road South</td></tr>
+        <tr><td>Monday - Friday</td><td>9am-6pm</td></tr>
+        <tr><td>Saturday</td><td>9am-6pm</td></tr>
+        <tr><td>Sunday</td><td>9am-6pm</td></tr>
+        <tr><td colspan="2">Phone: <a href="tel:15196801770">519-680-1770</a></td></tr>
+        <tr><td colspan="2"><a href="https://goo.gl/maps/TjJnKssofazrieVU7" target="_blank">Google Maps link</a> </td></tr>
+
+        <tr><td colspan="2">&nbsp;</td></tr>
+
+        <tr><th style="text-align: center; background-color: #2f92fe;" colspan="2">1875 Hyde Park Road</th></tr>
+        <tr><td>Monday - Friday</td><td>8:30am-8pm</td></tr>
+        <tr><td>Saturday</td><td>8:30am-8pm</td></tr>
+        <tr><td>Sunday</td><td>9am-6pm</td></tr>
+        <tr><td colspan="2">Phone: <a href="tel:15196606222">519-660-6222</a></td></tr>
+        <tr><td colspan="2"><a href="https://goo.gl/maps/GM65zaTBMNeLNQHi6" target="_blank">Google Maps link</a> </td></tr>
+
+
+    </table>
     
+
+
     <div class="button-login"><button onclick="location.href='./index.html'">Main Menu</button></div>
 </body>
 
