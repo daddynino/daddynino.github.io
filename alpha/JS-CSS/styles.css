@@ -1,20 +1,20 @@
-.show-on-desktop {
+/*.show-on-desktop {*/
     /* display can be inline-block, just choose one that suits your need*/
-    display: block;
+    /*display: block;*/
     /* it's your call what the break point is */
-    @media screen and (min-width: 412px) {
+    /*@media screen and (min-width: 412px) {
         display: none;
-    }
-}
+    }*/
+/*}
 
-.show-on-mobile {
+.show-on-mobile {*/
     /* display can be inline-block, just choose one that suits your need*/
-    display: none;
+    /*display: none;*/
     /* it's your call what the break point is */
-    @media screen and (max-width: 411px) {
+    /*@media screen and (max-width: 411px) {
         display: block;
     }
-}
+}*/
 .button-login {
     justify-content: center;
     align-items: center;
