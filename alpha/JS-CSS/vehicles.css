@@ -1,0 +1,78 @@
+#modelname {
+    font-size: 36px;
+    background-color: black;
+    /*display: block;*/
+    text-transform: uppercase;
+    /*width: 330px;*/
+    color: white;
+ /*   border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: 24pt;*/
+}
+
+.modelsubheader {
+    /*float: left;
+    width: 50%;*/
+    padding: 0px;
+    background-color: #000;
+    color:white;
+    font-size:24px;
+}
+
+.axleweights {
+    
+    padding: 0px;
+    background-color: #808080;
+    color: black;
+    font-size: 16px;
+    border: 1px solid;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+}
+
+.warningheader {
+
+}
+
+.warningcomments{
+
+}
+
+.sectionheader{
+
+}
+.sectioncomments{
+
+}
+
+.subheader{
+
+}
+
+.subcomments{
+
+}
+
+.page{
+
+}
+.container {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 50%;
+    outline: 1px solid black;
+    background: white;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    
+}
