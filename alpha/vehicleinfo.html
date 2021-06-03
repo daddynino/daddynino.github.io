@@ -88,6 +88,21 @@
 
         @media screen and (max-width: 992px) {
             ul {
+                -webkit-column-count: 2; /* Chrome/Opera, Safari */
+                -moz-column-count: 2; /* Mozilla Firefox */
+                column-count: 2;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px single grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px single grey; /* Mozilla Firefox */
+                column-rule: 1px single grey;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            ul {
                 -webkit-column-count: 1; /* Chrome/Opera, Safari */
                 -moz-column-count: 1; /* Mozilla Firefox */
                 column-count: 1;
