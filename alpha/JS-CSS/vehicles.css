@@ -1,3 +1,35 @@
+
+#vehicles {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /*width: 500px;
+    border: 2px solid;*/
+    width: 500px;
+    margin: auto;
+}
+
+#tableheader {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 36pt;
+    /*padding-left: 1em;*/
+    width: 250px;
+    margin: auto;
+    text-align:center;
+}
+
+#tablesubheader {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+    /*padding-left: 2em;*/
+    border: 2px solid;
+    margin: auto;
+    text-align:center;
+}
+
 #modelname {
     font-size: 36px;
     background-color: black;
@@ -5,7 +37,7 @@
     text-transform: uppercase;
     /*width: 330px;*/
     color: white;
- /*   border: none;
+    /*   border: none;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 2px;
@@ -14,10 +46,10 @@
     font-size: 24pt;*/
 }
 
-.modelsubheader {
-    /*float: left;
+/*.modelsubheader {*/
+/*float: left;
     width: 50%;*/
-    padding: 0px;
+/*padding: 0px;
     background-color: #000;
     color:white;
     font-size:24px;
@@ -34,31 +66,57 @@
     border-collapse: collapse;
     float:left;
     
+}*/
+
+#warningheader {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-left: 1em;
+    border: 2px solid;
 }
 
-.warningheader {
-
+#warningcomments {
+    background-color: yellow;
+    color: black;
+    font-weight: normal;
+    padding-left: 1em;
+    border: 2px solid;
 }
 
-.warningcomments{
-
+#sectionheader {
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-left: 1em;
+    border: 2px solid;
 }
 
-.sectionheader{
-
-}
-.sectioncomments{
-
-}
-
-.subheader{
-
+#sectioncomments {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    padding-left: 1em;
 }
 
-.subcomments{
-
+#subheader {
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-left: 1em;
+    border: 2px solid;
 }
 
+#subcomments {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    padding-left: 1em;
+}
+/*
 .page{
 
 }
@@ -71,9 +129,10 @@
     width: 50%;
     outline: 1px solid black;
     background: white;
-}
+}*/
 
 /* Create two equal columns that floats next to each other */
-.column {
+/*.column {
     
-}
+}*/
+
