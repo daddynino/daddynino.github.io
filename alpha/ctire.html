@@ -16,6 +16,7 @@
             #customers {
                 width: 100%;
             }
+        }
 
                 #customers td, #customers th {
                     /*border: 1px solid #ddd;
@@ -33,9 +34,10 @@
                 #customers th {
                     padding-top: 6px;
                     padding-bottom: 6px;
-                    text-align: left;
-                    background-color: #4CAF50;
+                    text-align: center;
+                    background-color: royalblue;
                     color: #FFFFFF;
+                    column-span:all;
                 }
 
             /* ul li: before {
@@ -55,9 +57,9 @@
 
     <div style="margin:auto;width:400px;text-align:center;">Canadian Tire stores<br>London and area</div><br>
     <!--<div style="text-align:center;width:400px;">STILL A WORK IN PROGRESS</div><br>-->
-
+    <!--style="text-align: center; background-color: royalblue; color:white;" colspan="2"-->
     <table id="customers">
-        <tr><th style="text-align: center; background-color: royalblue;" colspan="2">1975 Dundas Street East</th></tr>
+        <tr><th colspan="2">1975 Dundas Street East</th></tr>
         <tr><td>Monday - Friday</td><td>8am-8pm</td></tr>
         <tr><td>Saturday</td><td>8am-8pm</td></tr>
         <tr><td>Sunday</td><td>9am-6pm</td></tr>
@@ -66,7 +68,7 @@
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
-        <tr><th style="text-align: center; background-color: royalblue;" colspan="2">378 Horton Street East</th></tr>
+        <tr><th colspan="2">378 Horton Street East</th></tr>
         <tr><td>Monday - Friday</td><td>8am-6pm</td></tr>
         <tr><td>Saturday</td><td>8am-5pm</td></tr>
         <tr><td>Sunday</td><td>9am-5pm</td></tr>
@@ -75,7 +77,7 @@
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
-        <tr><th style="text-align: center; background-color: royalblue;" colspan="2">1125 Wellington Road</th></tr>
+        <tr><th colspan="2">1125 Wellington Road</th></tr>
         <tr><td>Monday - Friday</td><td>9am-6pm</td></tr>
         <tr><td>Saturday</td><td>9am-6pm</td></tr>
         <tr><td>Sunday</td><td>9am-5pm</td></tr>
@@ -84,7 +86,7 @@
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
-        <tr><th style="text-align: center; background-color: royalblue;" colspan="2">3100 Wonderland Road South</th></tr>
+        <tr><th colspan="2">3100 Wonderland Road South</th></tr>
         <tr><td>Monday - Friday</td><td>9am-6pm</td></tr>
         <tr><td>Saturday</td><td>9am-6pm</td></tr>
         <tr><td>Sunday</td><td>9am-6pm</td></tr>
@@ -93,7 +95,7 @@
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
-        <tr><th style="text-align: center; background-color: royalblue;" colspan="2">1875 Hyde Park Road</th></tr>
+        <tr><th colspan="2">1875 Hyde Park Road</th></tr>
         <tr><td>Monday - Friday</td><td>8:30am-8pm</td></tr>
         <tr><td>Saturday</td><td>8:30am-8pm</td></tr>
         <tr><td>Sunday</td><td>9am-6pm</td></tr>
@@ -101,7 +103,11 @@
         <tr><td colspan="2"><a href="https://goo.gl/maps/GM65zaTBMNeLNQHi6" target="_blank">Google Maps link</a> </td></tr>
     </table>
 
-    <div class="button-login"><button onclick="location.href='./index.html'" style="  margin: auto;
-  width: 330px;">Main Menu</button></div>
+    <div class="button-login">
+        <button onclick="location.href='./index.html'" style="  margin: auto;
+  width: 330px;">
+            Main Menu
+        </button>
+    </div>
 </body>
 </HTML>
