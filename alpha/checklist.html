@@ -12,8 +12,13 @@
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             border-collapse: collapse;
             width: 500px;
+            margin: auto;
         }
-
+        @media screen and (max-width: 992px) {
+            #customers {
+                width: 100%;
+            }
+        }   
             #customers td, #customers th {
                 border: 1px solid #ddd;
                 padding: 0px;
@@ -35,17 +40,17 @@
                 color: #FFFFFF;
             }
 
-        /* ul li: before {
+            /* ul li: before {
             content: '\2713';
             display: inline;
             color: #FF0000;
             padding: 0 0px 0 0;
         }*/
 
-        ul li {
-            list-style-type: none;
-            font-size: 0.8em;
-        }
+            ul li {
+                list-style-type: none;
+                font-size: 0.8em;
+            }
     </style>
 
 
@@ -63,7 +68,7 @@
                 </th>
             </tr>
             <tr>
-                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                <th style="text-align: center; background-color: royalblue;" colspan="2">
                     Driver Category
                 </th>
             </tr>
@@ -116,7 +121,7 @@
                 </td>
             </tr>
             <tr>
-                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                <th style="text-align: center; background-color: royalblue;" colspan="2">
                     Truck Category
                 </th>
             </tr>
@@ -257,7 +262,7 @@
                 </td>
             </tr>
             <tr>
-                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                <th style="text-align: center; background-color: royalblue;" colspan="2">
                     Tow Specific Category
                 </th>
             </tr>
@@ -374,7 +379,7 @@
                 </td>
             </tr>
             <tr>
-                <th style="text-align: center; background-color: #2f92fe;" colspan="2">
+                <th style="text-align: center; background-color: royalblue;" colspan="2">
                     Suggested Items
                 </th>
             </tr>
@@ -453,7 +458,8 @@
         </tbody>
     </table>
 
-    <div class="button-login"><button onclick="location.href='./index.html'">Main Menu</button></div>
+    <div class="button-login"><button onclick="location.href='./index.html'"  style="  margin: auto;
+  width: 330px;">Main Menu</button></div>
 
 </body>
 </HTML>
