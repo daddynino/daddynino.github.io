@@ -9,7 +9,7 @@
     }
 @media screen and (max-width: 992px) {
     #vehicles {
-        width:450px;
+        width:100%;
     }
 }
     #tableheader {
