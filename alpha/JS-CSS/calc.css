@@ -1,5 +1,5 @@
 
-    form  { display: table; width: 380px;     }
+    form  { display: table; width: 380px; margin:auto;     }
     p     { display: table-row; width: 380px;  }
     label { display: table-cell;                }
     input { display: table-cell; width: 180px; }
@@ -27,6 +27,7 @@
   color: #000;
   border: none;
   padding: 10px;
+  margin:auto;
   margin-bottom: 10px;
   border-radius: 2px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
