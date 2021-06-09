@@ -47,7 +47,27 @@
             padding-bottom: 10px;
             margin-bottom:20px;
             margin-top:20px;
+            }
 
+        .lg-view {
+            display: inline-block;
+        }
+
+        .sm-view {
+            display: none;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            .lg-view {
+                display: none;
+            }
+
+            .sm-view {
+                display: inline-block;
+            }
+
+            #header {font:30px bold;}
         }
     </style>
 
@@ -58,13 +78,19 @@
 
     <!--Currently Under Construction<div class="center">-->
 
-    <div id="header">Neil's Tow Reference</div>
+    <div id="header"><span class="lg-view">Neil's Tow Reference</span><span class="sm-view">Neil's Tow<br />Reference</span></div>
+
+        <!--<span class="lg-view">See to the right</span>
+        <span class="sm-view">See below</span>-->
+
+
+
         <div class="button-login"><button onclick="location.href='./occ.html'">Tow Calculator</button></div>
         <div class="button-login"><button onclick="location.href='./vehicleinfo.html'">Vehicle Info</button></div>
         <div class="button-login"><button onclick="location.href='./dealers.html'">Dealership List</button></div>
         <div class="button-login"><button onclick="location.href='./ctire.html'">Canadian Tire Info</button></div>
         <div class="button-login"><button onclick="location.href='./checklist.html'">CAA Supply Checklist</button></div>
         <div class="button-login"><button onclick="location.href='./regulations.html'">Regulations and HTA</button></div>
-    <!--</div>-->
+        <!--</div>-->
 </body>
 </html>
