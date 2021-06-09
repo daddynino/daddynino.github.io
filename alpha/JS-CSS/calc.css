@@ -1,34 +1,41 @@
 
-form {
+form
+{
     display: table;
     width: 380px;
     margin: auto;
 }
 
-p {
+p
+{
     display: table-row;
     width: 380px;
 }
 
-label {
+label
+{
     display: table-cell;
 }
 
-input {
+input
+{
     display: table-cell;
     width: 180px;
 }
 
-select {
+select
+{
     display: table-cell;
     width: 184px;
 }
 
-body {
+body
+{
     font-size: 24px;
 }
 
-div.c {
+div.c
+{
     background-color: #7faaef;
     column-span: all;
     -webkit-column-span: all;
@@ -39,13 +46,15 @@ div.c {
     width: 377px;
 }
 
-.button-login {
+.button-login
+{
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
 
-    .button-login button {
+    .button-login button
+    {
         display: block;
         text-transform: uppercase;
         width: 330px;
@@ -62,7 +71,8 @@ div.c {
     }
 
 /* The container */
-.container {
+.container
+{
     display: block;
     position: relative;
     padding-left: 35px;
@@ -76,7 +86,8 @@ div.c {
 }
 
     /* Hide the browser's default checkbox */
-    .container input {
+    .container input
+    {
         position: absolute;
         opacity: 0;
         cursor: pointer;
@@ -85,7 +96,8 @@ div.c {
     }
 
 /* Create a custom checkbox */
-.checkmark {
+.checkmark
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -95,29 +107,34 @@ div.c {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.container:hover input ~ .checkmark
+{
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.container input:checked ~ .checkmark
+{
     background-color: #2196F3;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.checkmark:after
+{
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.container input:checked ~ .checkmark:after
+{
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.container .checkmark:after
+{
     left: 9px;
     top: 5px;
     width: 5px;

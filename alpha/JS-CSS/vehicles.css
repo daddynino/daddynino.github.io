@@ -1,5 +1,6 @@
 
-#vehicles {
+#vehicles
+{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     /*width: 500px;
@@ -8,13 +9,16 @@
     margin: auto;
 }
 
-@media screen and (max-width: 992px) {
-    #vehicles {
+@media screen and (max-width: 992px)
+{
+    #vehicles
+    {
         width: 100%;
     }
 }
 
-#tableheader {
+#tableheader
+{
     background-color: black;
     color: white;
     font-weight: bold;
@@ -25,7 +29,8 @@
     text-align: center;
 }
 
-#tablesubheader {
+#tablesubheader
+{
     background-color: black;
     color: white;
     font-weight: bold;
@@ -36,7 +41,8 @@
     text-align: center;
 }
 
-#modelname {
+#modelname
+{
     font-size: 36px;
     background-color: black;
     /*display: block;*/
@@ -47,7 +53,8 @@
 
 
 
-#warningheader {
+#warningheader
+{
     background-color: yellow;
     color: black;
     font-weight: bold;
@@ -56,7 +63,8 @@
     border: 2px solid;
 }
 
-#warningcomments {
+#warningcomments
+{
     background-color: yellow;
     color: black;
     font-weight: normal;
@@ -64,7 +72,8 @@
     border: 2px solid;
 }
 
-#sectionheader {
+#sectionheader
+{
     background-color: darkblue;
     color: white;
     font-weight: bold;
@@ -73,14 +82,16 @@
     border: 2px solid;
 }
 
-#sectioncomments {
+#sectioncomments
+{
     background-color: white;
     color: black;
     font-weight: normal;
     padding-left: 1em;
 }
 
-#subheader {
+#subheader
+{
     background-color: royalblue;
     color: white;
     font-weight: bold;
@@ -89,7 +100,8 @@
     border: 2px solid;
 }
 
-#subcomments {
+#subcomments
+{
     background-color: white;
     color: black;
     font-weight: normal;

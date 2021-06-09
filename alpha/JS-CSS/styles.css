@@ -1,34 +1,36 @@
 /*.show-on-desktop {*/
-    /* display can be inline-block, just choose one that suits your need*/
-    /*display: block;*/
-    /* it's your call what the break point is */
-    /*@media screen and (min-width: 412px) {
+/* display can be inline-block, just choose one that suits your need*/
+/*display: block;*/
+/* it's your call what the break point is */
+/*@media screen and (min-width: 412px) {
         display: none;
     }*/
 /*}
 
 .show-on-mobile {*/
-    /* display can be inline-block, just choose one that suits your need*/
-    /*display: none;*/
-    /* it's your call what the break point is */
-    /*@media screen and (max-width: 411px) {
+/* display can be inline-block, just choose one that suits your need*/
+/*display: none;*/
+/* it's your call what the break point is */
+/*@media screen and (max-width: 411px) {
         display: block;
     }
 }*/
-.button-login {
+.button-login
+{
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
 
-    .button-login button {
+    .button-login button
+    {
         display: block;
         text-transform: uppercase;
         width: 330px;
         color: #000;
         border: none;
         padding: 10px;
-        margin:auto;
+        margin: auto;
         margin-bottom: 10px;
         border-radius: 2px;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
@@ -38,18 +40,21 @@
     }
 
 
-.center {
+.center
+{
     margin: auto;
     /*background: lime;*/
     width: 350px;
 }
 
-body {
+body
+{
     font-size: 24px;
 }
 
 
-#header {
+#header
+{
     background-color: royalblue;
     width: 500px;
     text-align: center;
@@ -62,25 +67,31 @@ body {
     margin-top: 20px;
 }
 
-.lg-view {
+.lg-view
+{
     display: inline-block;
 }
 
-.sm-view {
+.sm-view
+{
     display: none;
 }
 
 
-@media screen and (max-width: 500px) {
-    .lg-view {
+@media screen and (max-width: 500px)
+{
+    .lg-view
+    {
         display: none;
     }
 
-    .sm-view {
+    .sm-view
+    {
         display: inline-block;
     }
 
-    #header {
+    #header
+    {
         font: 30px bold;
         width: 100%;
         padding-top: 5px;
