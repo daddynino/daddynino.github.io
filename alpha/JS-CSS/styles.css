@@ -47,3 +47,43 @@
 body {
     font-size: 24px;
 }
+
+
+#header {
+    background-color: royalblue;
+    width: 500px;
+    text-align: center;
+    font: 40px bold;
+    margin: auto;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lg-view {
+    display: inline-block;
+}
+
+.sm-view {
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    .lg-view {
+        display: none;
+    }
+
+    .sm-view {
+        display: inline-block;
+    }
+
+    #header {
+        font: 30px bold;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
