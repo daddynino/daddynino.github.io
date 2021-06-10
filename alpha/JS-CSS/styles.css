@@ -63,12 +63,12 @@ body
 
 #header
 {
-    background-color: royalblue;
+    background-color:darkorange;
     width: 500px;
     text-align: center;
     font: 30px bold;
     margin: auto;
-    color: white;
+    color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
