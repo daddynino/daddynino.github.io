@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./JS-CSS/styles.css" />
     <style>
-        #customers {
+        #customers
+        {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             border-collapse: collapse;
             width: 450px;
             margin: auto;
         }
 
-        @media screen and (max-width: 992px) {
-            #customers {
+        @media screen and (max-width: 992px)
+        {
+            #customers
+            {
                 width: 90%;
             }
         }
 
-        #customers td, #customers th {
+        #customers td, #customers th
+        {
             /*border: 1px solid #ddd;
                 padding: 0px;*/
         }
@@ -32,7 +36,8 @@
                 background-color: #ddd;
             }*/
 
-        #customers th {
+        #customers th
+        {
             padding-top: 6px;
             padding-bottom: 6px;
             text-align: center;
@@ -48,61 +53,72 @@
             padding: 0 0px 0 0;
         }*/
 
-        ul li {
+        ul li
+        {
             list-style-type: none;
             font-size: 0.8em;
+        }
+
+        td.leftside
+        {
+            text-align: left;
+        }
+
+        td.rightside
+        {
+            text-align: right
         }
     </style>
 </head>
 <body>
 
-    
+
     <div id="header"><span class="lg-view">Canadian Tire Stores - London</span><span class="sm-view">Canadian Tire Stores<br />London</span></div>
     <!--<div style="text-align:center;width:400px;">STILL A WORK IN PROGRESS</div><br>-->
     <!--style="text-align: center; background-color: royalblue; color:white;" colspan="2"-->
     <table id="customers">
         <tr><th colspan="2">1975 Dundas Street East</th></tr>
-        <tr><td>Monday - Friday</td><td>8am-8pm</td></tr>
-        <tr><td>Saturday</td><td>8am-8pm</td></tr>
-        <tr><td>Sunday</td><td>9am-6pm</td></tr>
-        <tr><td colspan="2">Phone: <a href="tel:15194516260">519-451-6260</a></td></tr>
-        <tr><td colspan="2"><a href="https://goo.gl/maps/7PvcN7EdGnN5pVaw5" target="_blank">Google Maps link</a> </td></tr>
+        <tr><td class="leftside">Monday - Friday</td><td class="rightside">8am-8pm</td></tr>
+        <tr><td class="leftside">Saturday</td><td class="rightside">8am-8pm</td></tr>
+        <tr><td class="leftside">Sunday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Phone</td><td class="rightside"><a href="tel:15194516260">519-451-6260</a></td></tr>
+        <tr><td class="leftside">Directions</td><td class="rightside"><a href="https://goo.gl/maps/7PvcN7EdGnN5pVaw5" target="_blank">Map Link</a> </td></tr>
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
         <tr><th colspan="2">378 Horton Street East</th></tr>
-        <tr><td>Monday - Friday</td><td>8am-6pm</td></tr>
-        <tr><td>Saturday</td><td>8am-5pm</td></tr>
-        <tr><td>Sunday</td><td>9am-5pm</td></tr>
-        <tr><td colspan="2">Phone: <a href="tel:15196427250">519-642-7250</a></td></tr>
-        <tr><td colspan="2"><a href="https://goo.gl/maps/r3LriXHhjEfW753S9" target="_blank">Google Maps link</a> </td></tr>
+        <tr><td class="leftside">Monday - Friday</td><td class="rightside">8am-6pm</td></tr>
+        <tr><td class="leftside">Saturday</td><td class="rightside">8am-5pm</td></tr>
+        <tr><td class="leftside">Sunday</td><td class="rightside">9am-5pm</td></tr>
+        <tr><td class="leftside">Phone</td><td class="rightside"><a href="tel:15196427250">519-642-7250</a></td></tr>
+        <tr><td class="leftside">Directions</td><td class="rightside"><a href="https://goo.gl/maps/r3LriXHhjEfW753S9" target="_blank">Map link</a> </td></tr>
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
         <tr><th colspan="2">1125 Wellington Road</th></tr>
-        <tr><td>Monday - Friday</td><td>9am-6pm</td></tr>
-        <tr><td>Saturday</td><td>9am-6pm</td></tr>
-        <tr><td>Sunday</td><td>9am-5pm</td></tr>
-        <tr><td colspan="2">Phone: <a href="tel:15196812620">519-681-2620</a></td></tr>
-        <tr><td colspan="2"><a href="https://goo.gl/maps/Kak3o5cb2LQAGpyK7" target="_blank">Google Maps link</a> </td></tr>
+        <tr><td class="leftside">Monday - Friday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Saturday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Sunday</td><td class="rightside">9am-5pm</td></tr>
+        <tr><td class="leftside">Phone</td><td class="rightside"><a href="tel:15196812620">519-681-2620</a></td></tr>
+        <tr><td class="leftside">Directions</td><td class="rightside"><a href="https://goo.gl/maps/Kak3o5cb2LQAGpyK7" target="_blank">Map link</a> </td></tr>
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
         <tr><th colspan="2">3100 Wonderland Road South</th></tr>
-        <tr><td>Monday - Friday</td><td>9am-6pm</td></tr>
-        <tr><td>Saturday</td><td>9am-6pm</td></tr>
-        <tr><td>Sunday</td><td>9am-6pm</td></tr>
-        <tr><td colspan="2">Phone: <a href="tel:15196801770">519-680-1770</a></td></tr>
-        <tr><td colspan="2"><a href="https://goo.gl/maps/TjJnKssofazrieVU7" target="_blank">Google Maps link</a> </td></tr>
+        <tr><td class="leftside">Monday - Friday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Saturday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Sunday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Phone</td><td class="rightside"><a href="tel:15196801770">519-680-1770</a></td></tr>
+        <tr><td class="leftside">Directions</td><td class="rightside"><a href="https://goo.gl/maps/TjJnKssofazrieVU7" target="_blank">Map link</a> </td></tr>
 
         <tr><td colspan="2">&nbsp;</td></tr>
 
         <tr><th colspan="2">1875 Hyde Park Road</th></tr>
-        <tr><td>Monday - Friday</td><td>8:30am-8pm</td></tr>
-        <tr><td>Saturday</td><td>8:30am-8pm</td></tr>
-        <tr><td>Sunday</td><td>9am-6pm</td></tr>
-        <tr><td colspan="2">Phone: <a href="tel:15196606222">519-660-6222</a></td></tr>
-        <tr><td colspan="2"><a href="https://goo.gl/maps/GM65zaTBMNeLNQHi6" target="_blank">Google Maps link</a> </td></tr>
+        <tr><td class="leftside">Monday - Friday</td><td class="rightside">8:30am-8pm</td></tr>
+        <tr><td class="leftside">Saturday</td><td class="rightside">8:30am-8pm</td></tr>
+        <tr><td class="leftside">Sunday</td><td class="rightside">9am-6pm</td></tr>
+        <tr><td class="leftside">Phone</td><td class="rightside"><a href="tel:15196606222">519-660-6222</a></td></tr>
+        <tr><td class="leftside">Directions</td><td class="rightside"><a href="https://goo.gl/maps/GM65zaTBMNeLNQHi6" target="_blank">Map link</a> </td></tr>
     </table>
 
     <div class="button-login">
