@@ -46,6 +46,39 @@
             list-style-type: none;
             font-size: 0.8em;
         }
+
+
+        .lgc-view
+        {
+            display: inline-block;
+        }
+
+        .smc-view
+        {
+            display: none;
+        }
+
+
+        @media screen and (max-width: 800px)
+        {
+            .lgc-view
+            {
+                display: none;
+            }
+
+            .smc-view
+            {
+                display: inline-block;
+            }
+
+            /*#header
+            {
+                font: 30px bold;
+                width: 100%;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }*/
+        }
     </style>
 
 
@@ -59,7 +92,7 @@
                     Item Name
                 </th>
                 <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
-                    Quantity Required
+                    <div id=""><span class="lgc-view">Quantity Required</span><span class="smc-view" style="font-size:16px;">Quantity Required</span></div>
                 </th>
             </tr>
             <tr><td colspan="2" style="border-left:none;border-right:none;">&nbsp;</td></tr>
