@@ -36,7 +36,7 @@ body
 
 div.c
 {
-    background-color: #7faaef;
+    background-color: #005792;
     column-span: all;
     -webkit-column-span: all;
     float: left;
@@ -44,6 +44,7 @@ div.c
     position: absolute;
     text-align: center;
     width: 377px;
+    color: white;
 }
 
 .button-login
