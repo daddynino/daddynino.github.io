@@ -2,8 +2,9 @@
 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 450px;
+    width: 500px;
     margin: auto;
+    max-width:500px
 }
 
 @media screen and (max-width: 992px)
