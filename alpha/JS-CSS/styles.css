@@ -117,3 +117,88 @@ body
         padding-bottom: 5px;
     }
 }
+
+#customers
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    margin: auto;
+}
+
+@media screen and (max-width: 992px)
+{
+    #customers
+    {
+        width: 100%;
+    }
+}
+
+#customers td
+{
+    border: 1px solid #ddd;
+    padding: 0px;
+}
+
+/*#customers th
+        {
+            border: 0px solid #ddd;
+            padding: 0px;
+        }*/
+
+/*#customers tr: nth-child(even) {
+                background-color: #f2f2f2;
+            }*/
+
+/* #customers tr: hover {
+                background-color: #ddd;
+            }*/
+
+#customers th
+{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #13334c;
+    color: #FFFFFF;
+}
+
+ul li
+{
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+
+.lgc-view
+{
+    display: inline-block;
+}
+
+.smc-view
+{
+    display: none;
+}
+
+
+@media screen and (max-width: 480px)
+{
+    .lgc-view
+    {
+        display: none;
+    }
+
+    .smc-view
+    {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    /*#header
+            {
+                font: 30px bold;
+                width: 100%;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }*/
+}
