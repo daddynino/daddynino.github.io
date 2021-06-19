@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <TITLE>AMC - American Motor Company</TITLE>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/dealers.css" />
+    <style>
+
+        body
+        {
+            font-size: 24px;
+        }
+
+        ul
+        {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            -webkit-column-count: 4; /* Chrome/Opera, Safari */
+            -moz-column-count: 4; /* Mozilla Firefox */
+            column-count: 4;
+            /* Properties below are optional: */
+            -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+            -moz-column-gap: 50px; /* Mozilla Firefox */
+            column-gap: 50px;
+            -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+            -moz-column-rule: 1px grey; /* Mozilla Firefox */
+            column-rule: 1px grey;
+        }
+
+        @media screen and (max-width: 992px)
+        {
+            ul
+            {
+                -webkit-column-count: 2; /* Chrome/Opera, Safari */
+                -moz-column-count: 2; /* Mozilla Firefox */
+                column-count: 2;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        @media screen and (max-width: 400px)
+        {
+            ul
+            {
+                -webkit-column-count: 1; /* Chrome/Opera, Safari */
+                -moz-column-count: 1; /* Mozilla Firefox */
+                column-count: 1;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        a:link
+        {
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            text-decoration: underline;
+        }
+
+        a:active
+        {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="header">
+        <span class="lg-view">AMC - American Motor Company</span>
+        <span class="sm-view">AMC - American<br />Motor Company</span>
+    </div>
+    <!--<div style="text-align:center;width:400px;">STILL A WORK IN PROGRESS</div><br>-->
+    <!--style="text-align: center; background-color: royalblue; color:white;" colspan="2"-->
+    <!--<div class="button-login">
+        <button onclick="location.href='#dealers'" style="height:30px;font-size:16px;">
+            Go to Acura Dealers
+        </button>
+
+    </div>-->
+    <!--<div style="margin: auto; width: 150px;border:dashed 3px;text-align:center"><a href="#dealers">Go To Dealer List</a><div style="margin: auto; width: 150px;border:dashed 3px;text-align:center"></div><a href="#models">Go To Model List</a></div>-->
+    <table style="margin:auto;max-width:400px;text-align:center;">
+        <tr><td style="border:dashed 1px;padding:10px;"><a href="#dealers" style="text-align: center;">Go To Dealer List</a></td><td style="border: dashed 1px; padding: 10px;"><a href="#models" style="text-align: center;">Go To Model List</a></td></tr>
+    </table>
+    <br />
+
+    <a id="dealers"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    AMC - American Motor Company
+                </th>
+                <!--<th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    <div style="min-width:100px;">
+                        <span class="lgc-view">Quantity Required</span>
+                        <span class="smc-view">Quantity Required</span>
+                    </div>
+                </th>-->
+    </table>
+    <br />
+
+    <table id="tablemain">
+        <tr>
+            <th colspan="2">Unknown</th>
+        </tr>
+    </table>
+    <a id="models"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    AMC Models
+                </th>
+                <!--<th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+            <div style="min-width:100px;">
+                <span class="lgc-view">Quantity Required</span>
+                <span class="smc-view">Quantity Required</span>
+            </div>
+        </th>-->
+            <tr>
+                <td colspan="2" style="border:none;">&nbsp;</td>
+            </tr>
+</table>
+    <ul>
+        <li>Alliance - Renault</li>
+        <li>Ambassador</li>
+        <li>AMC</li>
+        <li>American</li>
+        <li>AMX</li>
+        <li>Classic</li>
+        <li>Concord</li>
+        <li>Eagle</li>
+        <li>Encore - Renault</li>
+        <li>Fuego - Renault</li>
+        <li>Gremlin</li>
+        <li>Hornet</li>
+        <li>Hudson</li>
+        <li>Javelin</li>
+        <li>Marlin</li>
+        <li>Matador</li>
+        <li>Medallion</li>
+        <li>Nash</li>
+        <li>Pacer</li>
+        <li>Rambler</li>
+        <li>Rebel</li>
+        <li>Roge</li>
+        <li>Spirit</li>
+        <li>Studebaker</li>
+    </ul>
+
+
+    <div class="button-login">
+        <button onclick="location.href='../dealers.html'">
+            Dealer List
+        </button>
+    </div>
+</body>
+</HTML>
