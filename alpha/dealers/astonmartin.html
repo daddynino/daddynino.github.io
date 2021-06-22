@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <TITLE>Aston Martin</TITLE>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/dealers.css" />
+    <style>
+
+        body
+        {
+            font-size: 24px;
+        }
+
+        ul
+        {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            -webkit-column-count: 4; /* Chrome/Opera, Safari */
+            -moz-column-count: 4; /* Mozilla Firefox */
+            column-count: 4;
+            /* Properties below are optional: */
+            -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+            -moz-column-gap: 50px; /* Mozilla Firefox */
+            column-gap: 50px;
+            -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+            -moz-column-rule: 1px grey; /* Mozilla Firefox */
+            column-rule: 1px grey;
+        }
+
+        @media screen and (max-width: 992px)
+        {
+            ul
+            {
+                -webkit-column-count: 2; /* Chrome/Opera, Safari */
+                -moz-column-count: 2; /* Mozilla Firefox */
+                column-count: 2;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        @media screen and (max-width: 400px)
+        {
+            ul
+            {
+                -webkit-column-count: 1; /* Chrome/Opera, Safari */
+                -moz-column-count: 1; /* Mozilla Firefox */
+                column-count: 1;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        a:link
+        {
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            text-decoration: underline;
+        }
+
+        a:active
+        {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="header">
+        <span class="lg-view">Aston Martin</span>
+        <span class="sm-view">Aston Martin</span>
+    </div>
+    <!--<div style="text-align:center;width:400px;">STILL A WORK IN PROGRESS</div><br>-->
+    <!--style="text-align: center; background-color: royalblue; color:white;" colspan="2"-->
+    <!--<div class="button-login">
+        <button onclick="location.href='#dealers'" style="height:30px;font-size:16px;">
+            Go to Aston Martin Dealers
+        </button>
+
+    </div>-->
+    <!--<div style="margin: auto; width: 150px;border:dashed 3px;text-align:center"><a href="#dealers">Go To Dealer List</a><div style="margin: auto; width: 150px;border:dashed 3px;text-align:center"></div><a href="#models">Go To Model List</a></div>-->
+    <table style="margin:auto;max-width:400px;text-align:center;">
+        <tr><td style="border:dashed 1px;padding:10px;"><a href="#dealers" style="text-align: center;">Go To Dealer List</a></td><td style="border: dashed 1px; padding: 10px;"><a href="#models" style="text-align: center;">Go To Model List</a></td></tr>
+    </table>
+    <br />
+
+    <a id="dealers"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    Aston Martin Dealers
+                </th>
+                <!--<th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    <div style="min-width:100px;">
+                        <span class="lgc-view">Quantity Required</span>
+                        <span class="smc-view">Quantity Required</span>
+                    </div>
+                </th>-->
+    </table>
+    <br />
+
+    <table id="tablemain">
+        <tr>
+            <th colspan="2">230 Sweetriver Blvd (Vaughn)</th>
+        </tr>
+        <tr>
+            <td class="leftside">Monday - Friday</td>
+            <td class="rightside">9am-7pm</td>
+        </tr>
+        <tr>
+            <td class="leftside">Saturday</td>
+            <td class="rightside">10am-5pm</td>
+        </tr>
+        <tr>
+            <td class="leftside">Sunday</td>
+            <td class="rightside">Closed</td>
+        </tr>
+        <tr>
+            <td class="leftside">Phone</td>
+            <td class="rightside">
+                <a href="tel:+18667885631">1-866-788-5631</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftside">Directions</td>
+            <td class="rightside">
+                <a href="https://g.page/AstonMartinUptownToronto?share" target="_blank">Map Link</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2">777 Dundas St E (Toronto)</th>
+        </tr>
+        <tr>
+            <td class="leftside">Monday - Friday</td>
+            <td class="rightside">9am-6pm</td>
+        </tr>
+        <tr>
+            <td class="leftside">Saturday</td>
+            <td class="rightside">9am-5pm</td>
+        </tr>
+        <tr>
+            <td class="leftside">Sunday</td>
+            <td class="rightside">Closed</td>
+        </tr>
+        <tr>
+            <td class="leftside">Phone</td>
+            <td class="rightside">
+                <a href="tel:+14165301880">1-416-530-1880</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftside">Directions</td>
+            <td class="rightside">
+                <a href="https://g.page/AstonMartinToronto?share" target="_blank">Map Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+    </table>
+    <a id="models"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    Aston Martin Models
+                </th>
+                <!--<th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    <div style="min-width:100px;">
+                        <span class="lgc-view">Quantity Required</span>
+                        <span class="smc-view">Quantity Required</span>
+                    </div>
+                </th>-->
+    </table>
+    <ul>
+        <li>DB7 Vantage</li>
+        <li>
+            DB9 Coupe or Volante
+        </li>
+        <li>
+            DBS V12
+        </li>
+        <li>
+            V12 Vanquish
+        </li>
+        <li>V8 Vantage</li>
+    </ul>
+
+
+    <div class="button-login">
+        <button onclick="location.href='../vehicleinfo.html'">
+            Dealer List
+        </button>
+    </div>
+</body>
+</HTML>
