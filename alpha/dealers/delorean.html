@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delorean</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delorean">
+    <meta name="author" content="Neil Saunders">
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/dealers.css">
+    <style>
+        body
+        {
+            Font-Size: 24px;
+        }
+
+
+        ul
+        {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            -webkit-column-count: 4; /* Chrome/Opera, Safari */
+            -moz-column-count: 4; /* Mozilla Firefox */
+            column-count: 4;
+            /* Properties below are optional: */
+            -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+            -moz-column-gap: 50px; /* Mozilla Firefox */
+            column-gap: 50px;
+            -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+            -moz-column-rule: 1px grey; /* Mozilla Firefox */
+            column-rule: 1px grey;
+        }
+
+
+        @media screen and (max-width: 992px)
+        {
+            ul
+            {
+                -webkit-column-count: 2; /* Chrome/Opera, Safari */
+                -moz-column-count: 2; /* Mozilla Firefox */
+                column-count: 2;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        @media screen and (max-width: 400px)
+        {
+            ul
+            {
+                -webkit-column-count: 1; /* Chrome/Opera, Safari */
+                -moz-column-count: 1; /* Mozilla Firefox */
+                column-count: 1;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        a:link
+        {
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            text-decoration: underline;
+        }
+
+        a:active
+        {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div id="header">
+        <span class="lg-view">Delorean</span>
+        <Span Class="sm-view">Delorean</Span>
+    </div>
+
+    <table style="margin:auto;max-width:400px;text-align:center;">
+        <tr><td style="border:dashed 1px;padding:10px;"><a href="#dealers" style="text-align: center;">Go To Dealer List</a></td><td style="border: dashed 1px; padding: 10px;"><a href="#models" style="text-align: center;">Go To Model List</a></td></tr>
+    </table>
+    <br />
+    <a id="dealers"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    Delorean Dealers
+                </th>
+    </table>
+    <br />
+
+
+    <table id="tablemain">
+        <tr>
+            <th colspan="2">Dealers Unknown</th>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+    </table>
+    <a id="models"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    Delorean Models
+                </th>
+    </table>
+    <ul>
+        <li>Delorean</li>
+    </ul>
+
+    <div Class="button-login">
+        <Button onclick="location.href='../vehicleinfo.html'">
+            Dealer List
+        </Button>
+    </div>
+</body>
+</html>
