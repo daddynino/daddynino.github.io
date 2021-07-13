@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ford</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ford">
+    <meta name="author" content="Neil Saunders">
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="../JS-CSS/dealers.css">
+    <style>
+        body
+        {
+            Font-Size: 24px;
+        }
+
+
+        ul
+        {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            -webkit-column-count: 4; /* Chrome/Opera, Safari */
+            -moz-column-count: 4; /* Mozilla Firefox */
+            column-count: 4;
+            /* Properties below are optional: */
+            -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+            -moz-column-gap: 50px; /* Mozilla Firefox */
+            column-gap: 50px;
+            -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+            -moz-column-rule: 1px grey; /* Mozilla Firefox */
+            column-rule: 1px grey;
+        }
+
+
+        @media screen and (max-width: 992px)
+        {
+            ul
+            {
+                -webkit-column-count: 2; /* Chrome/Opera, Safari */
+                -moz-column-count: 2; /* Mozilla Firefox */
+                column-count: 2;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        @media screen and (max-width: 400px)
+        {
+            ul
+            {
+                -webkit-column-count: 1; /* Chrome/Opera, Safari */
+                -moz-column-count: 1; /* Mozilla Firefox */
+                column-count: 1;
+                /* Properties below are optional: */
+                -webkit-column-gap: 50px; /* Chrome/Opera, Safari */
+                -moz-column-gap: 50px; /* Mozilla Firefox */
+                column-gap: 50px;
+                -webkit-column-rule: 1px grey; /* Chrome/Opera, Safari */
+                -moz-column-rule: 1px grey; /* Mozilla Firefox */
+                column-rule: 1px grey;
+            }
+        }
+
+        a:link
+        {
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            text-decoration: underline;
+        }
+
+        a:active
+        {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div id="header">
+        <span class="lg-view">Ford</span>
+        <Span Class="sm-view">Ford</Span>
+    </div>
+
+    <table style="margin:auto;max-width:400px;text-align:center;">
+        <tr><td style="border:dashed 1px;padding:10px;"><a href="#dealers" style="text-align: center;">Go To Dealer List</a></td><td style="border: dashed 1px; padding: 10px;"><a href="#models" style="text-align: center;">Go To Model List</a></td></tr>
+    </table>
+    <br />
+    <a id="dealers"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    Ford Dealers
+                </th>
+    </table>
+    <br />
+
+
+    <table id="tablemain">
+        <tr>
+        <tr>
+            <th colspan="2">Courtesy Ford</th>
+        </tr>
+        <tr>
+            <th colspan="2">684 Wharncliffe Rd S</th>
+        </tr>
+        <tr>
+            <td Class="leftside">Monday-Friday</td>
+            <td Class="rightside">7am-7pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Saturday</td>
+            <td Class="rightside">8am-6pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Sunday</td>
+            <td Class="rightside">Closed</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Phone</td>
+            <td Class="rightside">
+                <a href="tel:1-519-680-1200">519-680-1200</a>
+            </td>
+        <tr>
+            <td Class="leftside">Directions</td>
+            <td Class="rightside">
+                <a href="https://g.page/CourtesyFordLondon?share" target="_blank">Map Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2">Oakridge Ford</th>
+        </tr>
+        <tr>
+            <th colspan="2">601 Oxford St W</th>
+        </tr>
+        <tr>
+            <td Class="leftside">Monday-Thursday</td>
+            <td Class="rightside">9am-7pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Friday</td>
+            <td Class="rightside">9am-6pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Saturday</td>
+            <td Class="rightside">9am-5pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Sunday</td>
+            <td Class="rightside">Closed</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Phone</td>
+            <td Class="rightside">
+                <a href="tel:1-844-460-3742">844-460-3742</a>
+            </td>
+        <tr>
+            <td Class="leftside">Directions</td>
+            <td Class="rightside">
+                <a href="https://g.page/OakridgeFordlondon?share" target="_blank">Map Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <th colspan="2">Highbury Ford</th>
+        </tr>
+        <tr>
+            <th colspan="2">1365 Dundas St</th>
+        </tr>
+        <tr>
+            <td Class="leftside">Monday, Wednesday,Friday</td>
+            <td Class="rightside">7am-6pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Tuesday, Thursday</td>
+            <td Class="rightside">7am-8pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Saturday</td>
+            <td Class="rightside">8am-4pm</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Sunday</td>
+            <td Class="rightside">Closed</td>
+        </tr>
+        <tr>
+            <td Class="leftside">Phone</td>
+            <td Class="rightside">
+                <a href="tel:1-519-455-1800">519-455-1800</a>
+            </td>
+        <tr>
+            <td Class="leftside">Directions</td>
+            <td Class="rightside">
+                <a href="https://g.page/HighburyFordSales?share" target="_blank">Map Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+    </table>
+    <a id="models"></a>
+    <table id="customers" style="max-width:500px;padding:5em;">
+        <tbody>
+            <tr>
+                <th style="text-align: center; box-shadow: rgba(0,0,0,0.5) 5px 5px 5px;">
+                    Ford Models
+                </th>
+    </table>
+    <ul>
+        <li>500</li>
+        <li>Aerostar</li>
+        <li>Aerostar Elect. Transfer</li>
+        <li>Aerostar Manual Transfer</li>
+        <li>Aspire</li>
+        <li>Bronco</li>
+        <li>Bronco - Elec. 4x4 Shift</li>
+        <li>Bronco - Manu. 4x4 Shift</li>
+        <li>Club Wagon</li>
+        <li>CMax Hybrid</li>
+        <li>Contour</li>
+        <li>Corsair</li>
+        <li>Cortina</li>
+        <li>Courier</li>
+        <li>Crown Victoria</li>
+        <li>E Series Van</li>
+        <li>E150</li>
+        <li>E250</li>
+        <li>E350</li>
+        <li>Econoline</li>
+        <li>EcoSport</li>
+        <li>Edge</li>
+        <li>Escape</li>
+        <li>Escape Hybrid</li>
+        <li>Escort</li>
+        <li>Excursion</li>
+        <li>EXP</li>
+        <li>Expedition</li>
+        <li>Explorer</li>
+        <li>Explorer Control-Trac</li>
+        <li>Explorer Elect. Transfer</li>
+        <li>Explorer Manual Transfer</li>
+        <li>Explorer Sport Trac</li>
+        <li>F Series</li>
+        <li>F150</li>
+        <li>F150 Control-Trac</li>
+        <li>F150 Elect. Transfer</li>
+        <li>F150 Manual Transfer</li>
+        <li>F250</li>
+        <li>F250 Control-Trac</li>
+        <li>F250 Elect. Transfer</li>
+        <li>F250 Manual Transfer</li>
+        <li>F350</li>
+        <li>F450</li>
+        <li>F550</li>
+        <li>Fairlane</li>
+        <li>Fairmont</li>
+        <li>Falcon</li>
+        <li>Festiva</li>
+        <li>Fiesta</li>
+        <li>Five Hundred 500</li>
+        <li>Flex</li>
+        <li>Focus</li>
+        <li>Focus Electric</li>
+        <li>Focus ST</li>
+        <li>Freestar</li>
+        <li>Freestyle</li>
+        <li>Fusion</li>
+        <li>Fusion Hybrid</li>
+        <li>Futura</li>
+        <li>Granada</li>
+        <li>GT</li>
+        <li>LTD</li>
+        <li>LTD II</li>
+        <li>Mavrick</li>
+        <li>Model 48</li>
+        <li>Model A</li>
+        <li>Model B</li>
+        <li>Model T</li>
+        <li>Mustang</li>
+        <li>Pinto</li>
+        <li>Police Interceptor Sedan</li>
+        <li>Police Interceptor Utilit</li>
+        <li>Probe</li>
+        <li>Ranchero</li>
+        <li>Ranger</li>
+        <li>Saleen - Mustang Exotic</li>
+        <li>Shelby GT 350</li>
+        <li>Shelby GT500 Convertible</li>
+        <li>Shelby GT500 Coupe</li>
+        <li>Sport Trac</li>
+        <li>Sport Trac - Control-Trac</li>
+        <li>Super Duty</li>
+        <li>Taurus</li>
+        <li>Tempo</li>
+        <li>Thunderbird / T Bird</li>
+        <li>Torino</li>
+        <li>Transit</li>
+        <li>Transit Connect</li>
+        <li>Windstar</li>
+        <li>ZX2</li>
+    </ul>
+
+    <div Class="button-login">
+        <Button onclick="location.href='../vehicleinfo.html'">
+            Dealer List
+        </Button>
+    </div>
+</body>
+</html>
