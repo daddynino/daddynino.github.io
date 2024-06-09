@@ -29,6 +29,10 @@
             height: 200px; /* Set a fixed height */
             object-fit: contain; /* Ensure aspect ratio is maintained */
         }
+                .form-control {
+            height: 30px;
+            font-size: 16pt;
+        }
         @media (min-width: 768px) {
             .category {
                 grid-template-columns: repeat(4, 1fr);
@@ -44,11 +48,103 @@
                 grid-template-columns: repeat(1, 1fr);
             }
         }
+   /*             #wrap, #wrapyt {
+            max-width: 450px;
+            margin: 0 auto;
+            background-color: #C5C6C7;
+            padding: 20px;
+            border-radius: 8px;
+        }*/
+                        #wrap, #wrapyt {
+            max-width: 450px;
+            margin: 0 10px; /* Add some margin between the search boxes */
+            background-color: #C5C6C7;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block; /* Display the search boxes side by side */
+            vertical-align: top; /* Align search boxes to the top */
+        }
+
+/*        #locheader, #locheaderyt {
+            width: 100%;
+            background-color: #005792;
+            font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px 0;
+            display: inline-block;
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+*/
+ .search-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Adjust gap between search boxes */
+            margin-bottom: 20px; /* Add some margin between search boxes and categories */
+        }
+        .search-box {
+            max-width: 450px;
+            background-color: #C5C6C7;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1; /* Distribute available space equally */
+        }
+        #locheader, #locheaderyt {
+            width: 100%;
+            background-color: #005792;
+            font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px 0;
+            display: inline-block;
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+        .form-control {
+            height: 30px;
+            font-size: 16pt;
+            width: calc(100% - 20px); /* Adjust for padding */
+            margin: 10px auto;
+            display: block;
+            padding: 5px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        .center {
+            text-align: center;
+        }
     </style>
+    <script type="text/javascript" src="./js/miscfunctions.js"></script>
 </head>
 <body>
 
+
     <div id="download-links">
+                  <div class="search-container">
+        <div class="search-box" id="wrap">
+            <div id="locheader">Google Search</div>
+            <div style="text-align:center; padding:0; margin:10px auto;">
+                <input type="text" id="GoogleSearch" class="form-control" placeholder="Search here..." value="">
+            </div>
+            <div style="text-align:center;">
+                <button style="height:30px; font-size:16pt;" onclick="checkGoogle()">Search</button>
+            </div>
+        </div>
+
+        <div class="search-box" id="wrapyt">
+            <div id="locheaderyt">YouTube Search</div>
+            <div style="text-align:center; padding:0; margin:10px auto;">
+                <input type="text" id="youtubeSearch" class="form-control" placeholder="Search here..." value="">
+            </div>
+            <div style="text-align:center;">
+                <button style="height:30px; font-size:16pt;" onclick="checkYouTube()">Search</button>
+            </div>
+        </div>
+    </div>
+
+
         <!--Category: Gov Links-->
         <div class="category">
             <img src="./images/service-canada-logo.png" alt="Service Canada logo" />
@@ -70,6 +166,7 @@
             <img src="./images/studiotax_widelogo.png" alt="Studiotax logo" />
             <img src="./images/github_logo.png" alt="GitHub logo" />
             <img src="./images/thepiratebay_logo.png" alt="The Pirate Bay logo" />
+            <img src="./images/facebook_logo.png" alt="Facebook" />
         </div>
     </div>
 
