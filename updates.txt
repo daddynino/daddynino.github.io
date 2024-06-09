@@ -1,0 +1,24 @@
+;aiu;
+
+[Update]
+Name = StudioTax 2014
+URL = http://www.downloadstudiotax.com/ver14/StudioTax2014Install.exe
+Size = 32407088
+ReleaseDate = 19/05/2016
+MD5 = c1b39ed99246a8adf4bae4bf3fbb4861
+ServerFileName = StudioTax2014Install.exe
+FilePath = [APPDIR]StudioTax.exe
+Version = 10.12.0.0
+Description = English:
+Description1 = This is the version certified by CRA and Revenu Quebec for Netfile and printed returns.
+Description2 = Windows XP is no longer supported.
+Description3 = -------------
+Description4 = Français:
+Description5 = C‘est la version homologuée par l'ARC et Revenu Québec pour IMPÔTNET et déclarations  imprimés.
+Description6 = Windows XP n'est plus pris en charge.
+Enhancement = English:
+Enhancement1 = Upgrade of the secure communication protocol to work with the CRA's  planned TLS1.2 Efile server change on November 21, 2015.
+Enhancement2 = -------------
+Enhancement3 = Français:
+Enhancement4 = Mise à jour du protocole de communication sécurisé pour fonctionner avec le changement du serveur de l'ARC prévu le 21 Novembre 2015.
+AutoCloseApplication = [APPDIR]StudioTax.exe
